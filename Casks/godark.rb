@@ -3,7 +3,7 @@ cask "godark" do
   name "godark"
   desc "CLI that orchestrates autonomous AI agents to implement GitHub issues"
   homepage "https://github.com/peter-stratton/dark-factory"
-  version "0.6.1"
+  version "0.7.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,18 +14,18 @@ cask "godark" do
   on_macos do
     on_intel do
       url "https://github.com/peter-stratton/dark-factory/releases/download/v#{version}/dark-factory_#{version}_darwin_amd64.tar.gz"
-      sha256 "1f0eb00bcd0be3ae706e3f9f866a91cfc71cecbb5ff2d326faf63631e20cde6a"
+      sha256 "4282a77f0ca5821f4062dfad4930f890145c80985e3fcf4af5bf7bae63011c16"
     end
     on_arm do
       url "https://github.com/peter-stratton/dark-factory/releases/download/v#{version}/dark-factory_#{version}_darwin_arm64.tar.gz"
-      sha256 "46f50ef39d57688b0d9e18fb0424e274ceab45a620458f5333e1c1c1ce334e5f"
+      sha256 "635b74eb7d2308d19bb2a5879b9fa65f4a7c1b21baeb02cfdb8f431d3f6bf68f"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/peter-stratton/dark-factory/releases/download/v#{version}/dark-factory_#{version}_linux_amd64.tar.gz"
-      sha256 "1dbc2f412bdcc4a5d91d15e220b6d99409d2f3b00c8f76b80b0dbc22cae79f19"
+      sha256 "275b12fda1615825b91b8e97a924e91f17efeb47fd053156f92d0d78001c9371"
     end
   end
 
